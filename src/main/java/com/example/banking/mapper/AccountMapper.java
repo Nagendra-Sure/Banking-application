@@ -24,6 +24,7 @@ public class AccountMapper {
                 account.getId(),
                 account.getAccountHolderName(),
                 account.getBalance()
+
         );
 
         return accountDto;
